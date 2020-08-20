@@ -1,0 +1,16 @@
+{
+    "name": "maximilian-kresse/phpstan-ignore-error-formatter",
+    "description": "A error formatter wrapper to ignore the exit code of the wrapped error formatter and always return 0",
+    "license": [
+        "MIT"
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "phpstan/phpstan": "~0.12.37"
+    },
+    "autoload": {
+        "psr-4": {
+            "MaximilianKresse\\PhpstanIgnoreErrorFormatter\\": "src"
+        }
+    }
+}
